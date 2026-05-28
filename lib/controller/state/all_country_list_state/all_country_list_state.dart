@@ -2,8 +2,6 @@ import '../../../model/all_country_list.dart';
 
 sealed class AllCountryListState {}
 
-class AllCountryListInitialState extends AllCountryListState {}
-
 class AllCountryListLoadingState extends AllCountryListState {}
 
 class AllCountryListSuccessState extends AllCountryListState {
