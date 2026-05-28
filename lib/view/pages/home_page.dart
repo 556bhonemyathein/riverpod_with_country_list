@@ -50,7 +50,7 @@ class _MyHomePageState extends ConsumerState<MyHomePage> {
             ref.read(countryNotifierProvider.notifier).getAllCountryList();
           },
         ),
-        _ => const SizedBox(),
+        _ => const Center(child: Text('Unknown State')),
       },
     );
   }
