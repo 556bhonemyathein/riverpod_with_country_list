@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import '../../model/all_country_list.dart';
 import '../const/api_const.dart';
 
-class CountryListService {
+class AllCountryListService {
   final Dio _dio = Dio();
 
   Future<List<AllCountryListModel>> getAllCountryList() async {
