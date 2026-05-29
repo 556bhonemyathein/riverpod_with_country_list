@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../model/all_country_list.dart';
+import '../../model/all_country_list_model.dart';
 
 class AllCountryListView extends StatelessWidget {
   const AllCountryListView({super.key, required this.allCountryList});
@@ -13,7 +13,12 @@ class AllCountryListView extends StatelessWidget {
         final AllCountryListModel country = allCountryList[index];
         return ListTile(
           title: Text(country.name?.common ?? 'N/A'),
-          subtitle: Text(country.capital?.first ?? 'N/A'),
+          subtitle: Row(
+            children: [
+              
+              Text(country.capital?.first ?? 'N/A'),
+            ],
+          ),
         );
       },
     );

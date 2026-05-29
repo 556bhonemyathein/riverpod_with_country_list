@@ -1,4 +1,4 @@
-import '../../../model/all_country_list.dart';
+import '../../../model/all_country_list_model.dart';
 
 sealed class AllCountryListState {}
 

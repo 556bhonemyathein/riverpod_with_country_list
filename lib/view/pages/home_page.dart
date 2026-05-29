@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../controller/state/all_country_list_state/all_country_list_notifier.dart';
 import '../../controller/state/all_country_list_state/all_country_list_state.dart';
-import '../../model/all_country_list.dart';
+import '../../model/all_country_list_model.dart';
 import '../widgets/all_country_list_error_widget.dart';
 import '../widgets/all_country_list_view.dart';
 

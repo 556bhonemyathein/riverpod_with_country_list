@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import '../../model/all_country_list.dart';
+import '../../model/all_country_list_model.dart';
 import '../const/api_const.dart';
 
 class AllCountryListService {
