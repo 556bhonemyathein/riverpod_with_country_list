@@ -1,6 +1,6 @@
 import 'package:json_annotation/json_annotation.dart';
 
-part 'all_country_list.g.dart';
+part 'all_country_list_model.g.dart';
 
 @JsonSerializable()
 class AllCountryListModel {
